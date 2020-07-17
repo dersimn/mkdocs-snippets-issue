@@ -2,6 +2,9 @@ site_name: Test
 theme: readthedocs
 markdown_extensions:
   - pymdownx.snippets:
+      # Uncomment and see what happens:
+      #base_path: docs/big_topic
+      #base_path: docs/smaller_topic
       base_path: docs
 nav:
   - Big Topic: big_topic/index.md
