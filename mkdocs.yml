@@ -1,0 +1,8 @@
+site_name: Test
+theme: readthedocs
+markdown_extensions:
+  - pymdownx.snippets:
+      base_path: docs
+nav:
+  - Big Topic: big_topic/index.md
+  - Smaller Topic: smaller_topic/index.md
