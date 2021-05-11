@@ -13,3 +13,8 @@ This works, but it only works in this project, not in other projects, because th
 ```c
 --8<-- "smaller_topic/hello_world.c"
 ```
+
+Global include:
+```c
+--8<-- "../global_world.c"
+```
