@@ -5,7 +5,8 @@ markdown_extensions:
       # Uncomment and see what happens:
       #base_path: docs/big_topic
       #base_path: docs/smaller_topic
-      base_path: docs
+      #base_path: docs
+      base_path: $relative
 nav:
   - Big Topic: big_topic/index.md
   - Smaller Topic: smaller_topic/index.md
